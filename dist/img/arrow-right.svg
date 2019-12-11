@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UnderHill" transform="translate(-763.000000, -1449.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(0.000000, 790.000000)">
+                <g id="Group" transform="translate(670.000000, 657.000000)">
+                    <path d="M93.2928932,14.2928932 C92.9023689,14.6834175 92.9023689,15.3165825 93.2928932,15.7071068 C93.6834175,16.0976311 94.3165825,16.0976311 94.7071068,15.7071068 L100.707107,9.70710678 C101.097631,9.31658249 101.097631,8.68341751 100.707107,8.29289322 L94.7071068,2.29289322 C94.3165825,1.90236893 93.6834175,1.90236893 93.2928932,2.29289322 C92.9023689,2.68341751 92.9023689,3.31658249 93.2928932,3.70710678 L98.5857864,9 L93.2928932,14.2928932 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

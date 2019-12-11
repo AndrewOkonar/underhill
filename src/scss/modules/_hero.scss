@@ -1,0 +1,21 @@
+.hero {
+  background: url('../img/hero.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  .title {
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 500;
+    margin: 0px;
+    @media(max-width: 992px) {
+      line-height: 1.3em;
+      font-size: 54px
+    }
+    @media(max-width: 767px) {
+      font-size: 28px;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.ideas {
+  @media(max-width: 992px) {
+    padding: 25px 0;
+  }
+  .image-wrap {
+    cursor: pointer;
+    transition: .25s;
+    &:hover {
+      transition: .25s;
+      img {
+        transition: .25s;
+        &:first-child {
+          transform: translateX(0px);
+        }
+        &:last-child {
+          transform: translateX(0px);
+        }
+      }
+    }
+    img {
+      transition: .25s;
+      width: 100%;
+      &:first-child {
+        transform: translateX(-40px);
+        @media(max-width: 992px) {
+          transform: translateX(0px);
+        }
+      }
+      &:last-child {
+        transform: translateX(40px);
+        @media(max-width: 992px) {
+          transform: translateX(0px);
+        }
+      }
+    }
+  }
+  h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 56px;
+    margin-bottom: 45px;
+    font-weight: 600;
+    z-index: 10;
+    position: relative;
+    @media(max-width: 992px) {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+    @media(max-width: 767px) {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+  }
+  .nav-tabs {
+    border-bottom: none;
+    margin-bottom: 60px;
+    margin-left: 114px;
+    position: relative;
+    z-index: 1;
+    @media(max-width: 992px) {
+      margin-left: 32px;
+    }
+    @media(max-width: 767px) {
+      margin-left: 0px;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      width: 287px;
+      height: 220px;
+      opacity: 0.2;
+      background: #544F45;
+      left: -32px;
+      top: -113px;
+      z-index: -1;
+      @media(max-width: 992px) {
+        left: -32px;
+        height: 100px;
+        top: -40px;
+      }
+      @media(max-width: 767px) {
+        display: none;
+      }
+    }
+    li {
+      margin-right: 40px;
+      a {
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 22px;
+        opacity: .8;
+        transition: .25s;
+        position: relative;
+        &.active {
+          opacity: 1;
+          &:after {
+            width: 100%;
+            opacity: 1;
+          }
+        }
+        &:after {
+          width: 24px;
+          height: 1px;
+          background: #fff;
+          opacity: .4;
+          position: absolute;
+          content: '';
+          left: 0px;
+          bottom: -6px;
+          transition: .25s;
+        }
+      }
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
