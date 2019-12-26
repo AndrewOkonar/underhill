@@ -58,6 +58,11 @@ $(document).on('click', '#ideas-link', function(){
   fullpage_api.moveTo('ideas', 3);
 });
 
+//adding the action to the button
+$(document).on('click', '#section4', function(){
+  fullpage_api.moveTo('contact', 4);
+});
+
 
 //first slider init
 $('#slider').owlCarousel({
