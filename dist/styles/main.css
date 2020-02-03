@@ -871,6 +871,11 @@ footer .company {
     @media (max-width: 767px) {
       .hero .title {
         font-size: 28px; } }
+    .hero .title.small {
+      font-size: 32px; }
+      @media (max-width: 767px) {
+        .hero .title.small {
+          font-size: 20px; } }
 
 .ideas iframe {
   width: 100%; }
