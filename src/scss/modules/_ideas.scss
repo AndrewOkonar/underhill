@@ -1,4 +1,10 @@
 .ideas {
+  iframe {
+    width: 100%;
+  }
+  .tab-content {
+    min-height: 360px;
+  }
   @media(max-width: 992px) {
     padding: 25px 0;
   }

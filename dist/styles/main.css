@@ -872,6 +872,12 @@ footer .company {
       .hero .title {
         font-size: 28px; } }
 
+.ideas iframe {
+  width: 100%; }
+
+.ideas .tab-content {
+  min-height: 360px; }
+
 @media (max-width: 992px) {
   .ideas {
     padding: 25px 0; } }

@@ -110,6 +110,30 @@ $('#slider2').owlCarousel({
     }
 });
 
+//second slider init
+$('#slider3').owlCarousel({
+    loop:true,
+    margin:30,
+    center: true,
+    nav:true,
+    mouseDrag: false,
+    touchDrag: false,
+    navText: ["<img src='dist/img/arrow-left.svg'>", "<img src='dist/img/arrow-right.svg'>"],
+    onInitialized: counter3,
+    onChanged: counter3,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
 //settings for slider counter
 function counter(event) {
   if (!event.namespace) {
@@ -127,11 +151,22 @@ function counter2(event) {
   $('.slider-counter2').html(slides2.relative(slides2.current()) + 1 + '<span> / ' + slides2.items().length) + '</span>';
 }
 
+function counter3(event) {
+  if (!event.namespace) {
+    return;
+  }
+  var slides3 = event.relatedTarget;
+  $('.slider-counter3').html(slides3.relative(slides3.current()) + 1 + '<span> / ' + slides3.items().length) + '</span>';
+}
+
 //gallery settings
 var lightbox = $('.gallery a').simpleLightbox({
   showCounter: false
 });
 var lightbox2 = $('.gallery2 a').simpleLightbox({
+  showCounter: false
+});
+var lightbox2 = $('.gallery3 a').simpleLightbox({
   showCounter: false
 });
 
