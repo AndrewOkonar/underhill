@@ -713,6 +713,9 @@ p {
         display: none; } }
   .develop .nav-tabs li {
     margin-right: 40px; }
+    @media (max-width: 767px) {
+      .develop .nav-tabs li {
+        margin-top: 16px; } }
     .develop .nav-tabs li a {
       font-size: 16px;
       color: #FFFFFF;
